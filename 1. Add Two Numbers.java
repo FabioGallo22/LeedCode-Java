@@ -49,7 +49,7 @@ public class MyClass {
 			
 			listSum.add(partialSum % 10);
 		}		
-		// check if there is and pendent carry
+		// check if there is a pendent carry
 		if(carry != 0){
 			listSum.add(carry);
 		}
